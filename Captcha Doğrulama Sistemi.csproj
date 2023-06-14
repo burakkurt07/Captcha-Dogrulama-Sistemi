@@ -1,0 +1,25 @@
+public class Captcha
+{
+    public static void Generate()
+    {
+        // Generate a random 4-digit number
+        int randomNumber = new Random().Next(10000);
+
+        // Display the number to the user
+        Console.WriteLine("Enter the 4-digit number displayed on the screen: ");
+
+        // Get the user's input
+        int userInput = Convert.ToInt32(Console.ReadLine());
+
+        // Check if the user's input is correct
+        if (userInput == randomNumber)
+        {
+            Console.WriteLine("You are not a robot!");
+        }
+        else
+        {
+            Console.WriteLine("You are a robot!");
+            System.Environment.Exit(1);
+        }
+    }
+}
