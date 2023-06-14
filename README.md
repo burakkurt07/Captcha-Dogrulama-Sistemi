@@ -2,6 +2,7 @@
 
 ![resim](https://github.com/burakkurt07/65dg-46sd4-g54654f6h/assets/121500513/90c72605-6719-4c48-a889-5c6e17bb6f6b)
 
+Bizden bir güvenlik katmanı oluşturmamız ve BOT girişleri engellememiz için bir 4 haneli rastgele sayı doğrulama sistemi tasarlamamızı istendi. Bu sistem, kullanıcıya rastgele 4 haneli bir sayı göstererek, kullanıcının bu sayıyı doğru bir şekilde girmesini isteyecek, kullanıcının üç hakkı olacak. Doğru cevap veren kullanıcılar insan olarak kabul edilecek, yanlış cevaplar ise robotları tespit etmek için kullanılacaktır. Ayrıca, kullanıcılara 3 hakkı vererek doğru cevap vermelerini sağlamamız istendi. Eğer 3 denemede de yanlış cevap verilirse, kullanıcıların erişimi engellenecek.
 
 OLUŞTURMUŞ OLDUĞUM C# BOT DOĞRULAMA PROGRAMININ DETAYLI VE AÇIKLAMALI ANLATIMINI MEDİUM MAKALEMDE BULABİLİRSİNİZ!
 
